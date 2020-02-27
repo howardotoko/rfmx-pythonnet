@@ -12,8 +12,8 @@ import clr
 import sys
 
 # Location of assemblies
-assy_path = r'"C:\Program Files\IVI Foundation\IVI\Microsoft.NET\Framework64\v4.0.30319\NationalInstruments.ModularInstruments.NIRfsg 19.1.0' #1
-assy_path2 = r'"C:\Program Files (x86)\National Instruments\MeasurementStudioVS2010\DotNET\Assemblies\Current' #2
+assy_path = r'C:\Program Files\IVI Foundation\IVI\Microsoft.NET\Framework64\v4.0.30319\NationalInstruments.ModularInstruments.NIRfsg 19.1.0' #1
+assy_path2 = r'C:\Program Files (x86)\National Instruments\MeasurementStudioVS2010\DotNET\Assemblies\Current' #2
 sys.path.append(assy_path)
 sys.path.append(assy_path2)
 
